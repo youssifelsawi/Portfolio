@@ -12,7 +12,7 @@ const Projects = () => {
             title: "Portfolio Website",
             description: "A personal portfolio website built with React.",
             image: portfolio,
-            code: "#",
+            code: "https://github.com/youssifelsawi/Portfolio.git",
           },
           {
             title: "Real Estate Website",
@@ -26,7 +26,7 @@ const Projects = () => {
             key={index}
             className="bg-[#1C2E4A] shadow-md p-4 rounded-lg overflow-hidden"
           >
-            <div className="w-full h-70 mb-4 overflow-hidden rounded">
+            <div className="w-full h-60 mb-4 overflow-hidden rounded">
               <img
                 src={project.image}
                 alt="Project Image"
