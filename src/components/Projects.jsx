@@ -13,6 +13,7 @@ const Projects = () => {
             description: "A personal portfolio website built with React.",
             image: portfolio,
             code: "https://github.com/youssifelsawi/Portfolio.git",
+            link: "https://portfolio-oy5n.vercel.app/",
           },
           {
             title: "Real Estate Website",
@@ -20,6 +21,7 @@ const Projects = () => {
               "A Real Estate website for various properties using modern UI/UX.",
             image: realEstate,
             code: "https://github.com/youssifelsawi/Real-Estate.git",
+            link: "",
           },
         ].map((project, index) => (
           <div
@@ -43,6 +45,14 @@ const Projects = () => {
                 className="text-[#479691] hover:text-[#64C0B6]"
               >
                 Code
+              </a>
+              <a
+                href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#479691] hover:text-[#64C0B6]"
+              >
+                Link
               </a>
             </div>
           </div>
