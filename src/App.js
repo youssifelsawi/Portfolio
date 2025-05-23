@@ -1,4 +1,5 @@
 import React from 'react';
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import { Link } from 'react-scroll';
 import MainPage from './components/MainPage';
 import './App.css';
@@ -16,6 +17,8 @@ const App = () => {
       <div style={{ paddingTop: '70px' }}>
         <MainPage />
       </div>
+
+      <SpeedInsights />
     </div>
 
   );
