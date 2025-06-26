@@ -1,7 +1,7 @@
 import React from "react";
 import realEstate from "../assets/images/realEstate.jpg";
-import portfolio from "../assets/images/portfolio.JPG"
-
+import portfolio from "../assets/images/portfolio.JPG";
+import ecommerce from "../assets/images/ecommerce.JPG"
 const Projects = () => {
   return (
     <section id="projects" className="px-6 py-12 bg-#0a1930">
@@ -22,6 +22,13 @@ const Projects = () => {
             image: realEstate,
             code: "https://github.com/youssifelsawi/Real-Estate.git",
             link: "",
+          },
+          {
+            title: "Ecommerce Website",
+            description: "A Complete Ecommerce Website with lots of features",
+            image: ecommerce,
+            code: "https://github.com/youssifelsawi/LUXE.git",
+            link: "https://luxe-ten.vercel.app/",
           },
         ].map((project, index) => (
           <div
