@@ -2,6 +2,7 @@ import React from "react";
 import realEstate from "../assets/images/realEstate.jpg";
 import portfolio from "../assets/images/portfolio.JPG";
 import ecommerce from "../assets/images/ecommerce.JPG"
+import eLearn from "../assets/images/elearn.png"
 const Projects = () => {
   return (
     <section id="projects" className="px-6 py-12 bg-#0a1930">
@@ -29,6 +30,13 @@ const Projects = () => {
             image: ecommerce,
             code: "https://github.com/youssifelsawi/LUXE.git",
             link: "https://luxe-ten.vercel.app/",
+          },
+          {
+            title: "E-Learning Website",
+            description: "A Complete Ecommerce Website with lots of features",
+            image: eLearn,
+            code: "https://github.com/youssifelsawi/E-Learn.git",
+            link: "https://e-learn-sand.vercel.app/",
           },
         ].map((project, index) => (
           <div
