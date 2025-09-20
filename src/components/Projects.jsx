@@ -33,7 +33,7 @@ const Projects = () => {
           },
           {
             title: "E-Learning Website",
-            description: "A Complete Ecommerce Website with lots of features",
+            description: "An interactive e-learning platform with courses, lessons, progress tracking, certificates, and a personalized wishlist for learners.",
             image: eLearn,
             code: "https://github.com/youssifelsawi/E-Learn.git",
             link: "https://e-learn-sand.vercel.app/",
