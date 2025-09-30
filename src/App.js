@@ -4,8 +4,6 @@ import { Link } from 'react-scroll';
 import MainPage from './components/MainPage';
 import './App.css';
 
-function HoverText() {}
-
 const App = () => {
   return (
     <div className="MainPage font-sans">
