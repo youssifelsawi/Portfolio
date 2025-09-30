@@ -46,6 +46,7 @@ const Projects = () => {
             <div className="w-full h-60 mb-4 overflow-hidden rounded">
               <img
                 src={project.image}
+                alt={project.title}
                 className="w-full h-full object-cover"
               />
             </div>
